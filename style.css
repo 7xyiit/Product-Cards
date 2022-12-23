@@ -86,7 +86,18 @@ section {
     flex-direction: column;
     list-style: none;
     color: black;
+    animation: anim1 1s ease-in-out forwards;
 }
+
+@keyframes anim1 {
+    0% {
+        transform: translateX(100px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
 
 .hover-menu li {
     position: relative;
